@@ -11,7 +11,7 @@ const {
 describe('JavaScript Data Types - Strings', () => {
   test('createString should return a string with the value [Johnson 10]', () => {
     expect(typeof createString()).toBe('string');
-    expect(createString()).toMatch("Johnson 10"); // Replace with your name
+    expect(createString()).toMatch("Bryan"); // Replace with your name
   });
 
   test('stringLength should return the length of the provided string', () => {
@@ -35,7 +35,7 @@ describe('JavaScript Data Types - Strings', () => {
   });
 
   test('stringSubstring should return a substring of the provided string', () => {
-    expect(stringSubstring('Hello, World!', 0, 4)).toBe('Hello');
-    expect(stringSubstring('JavaScript', 4, 9)).toBe('Script');
+    expect(stringSubstring('Hello, World!', 0, 5)).toBe('Hello');
+    expect(stringSubstring('JavaScript', 4, 10)).toBe('Script');
   });
 });

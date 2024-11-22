@@ -3,31 +3,38 @@
 // Function 1
 function createString() {
   // Your code here
+  const name = 'Bryan'
+  return name
 }
 
 // Function 2
 function stringLength(str) {
   // Your code here
+  return str.length
 }
 
 // Function 3
 function stringConcat(str1, str2) {
   // Your code here
+  return str1 + str2
 }
 
 // Function 4
 function stringUpperCase(str) {
   // Your code here
+  return str.toUpperCase()
 }
 
 // Function 5
 function stringLowerCase(str) {
   // Your code here
+  return str.toLowerCase()
 }
 
 // Function 6
 function stringSubstring(str, start, end) {
   // Your code here
+  return str.substring(start, end)
 }
 
 module.exports = {
