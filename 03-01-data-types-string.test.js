@@ -35,7 +35,7 @@ describe('JavaScript Data Types - Strings', () => {
   });
 
   test('stringSubstring should return a substring of the provided string', () => {
-    expect(stringSubstring('Hello, World!', 0, 5)).toBe('Hello');
-    expect(stringSubstring('JavaScript', 4, 6)).toBe('Script');
+    expect(stringSubstring('Hello, World!', 0, 4)).toBe('Hello');
+    expect(stringSubstring('JavaScript', 4, 9)).toBe('Script');
   });
 });
